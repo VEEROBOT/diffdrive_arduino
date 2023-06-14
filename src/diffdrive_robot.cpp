@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 
   ros::Time prevTime = ros::Time::now();
 
-  ros::Rate loop_rate(10);
+  ros::Rate loop_rate(20);
 
   while (ros::ok())
   {
